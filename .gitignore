@@ -1,0 +1,11 @@
+node_modules/
+.next/
+build/
+dist/
+__pycache__/
+.brownie/
+anvil-state.json
+.env
+**/.env
+*.pyc
+.env.local
