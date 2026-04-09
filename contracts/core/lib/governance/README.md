@@ -1,0 +1,1 @@
+brownie test -n auto --network hardhat

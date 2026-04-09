@@ -1,0 +1,6 @@
+[submodule "lib/solady"]
+	path = lib/solady
+	url = https://github.com/Vectorized/solady
+[submodule "lib/compound"]
+	path = lib/compound
+	url = https://github.com/compound-finance/compound-protocol/

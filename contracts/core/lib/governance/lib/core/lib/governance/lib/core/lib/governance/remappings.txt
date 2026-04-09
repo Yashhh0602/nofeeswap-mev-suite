@@ -1,0 +1,2 @@
+@solady/=lib/solady/src/
+@compound/=lib/compound/contracts/

@@ -1,0 +1,4 @@
+@solady/=lib/solady/src/
+@compound/=lib/compound/contracts/
+@core/=lib/core/contracts/
+@openzeppelin/=lib/openzeppelin-contracts/contracts/
