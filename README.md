@@ -81,7 +81,7 @@ cast rpc anvil_mine --rpc-url http://127.0.0.1:8545
 ## Bot Architecture
 
 **Mempool monitoring:** Polls `eth_getBlockByNumber("pending", true)` every 500ms. Requires `--no-mining` so transactions stay pending.
-
+"
 **Target detection:** Filters by `tx.to == NOFEESWAP`, `tx.from == VICTIM`, `tx.input starts with 0x2a5a0c9e` (swap selector).
 
 **Calldata decoding:** Uses ethers.js `Interface.parseTransaction()` to extract `zeroForOne`, `amountSpecified`, `sqrtPriceLimitX96`.
@@ -109,3 +109,5 @@ Nonce ordering: `botNonce` for front-run, `botNonce + 1` for back-run.
 | NofeeswapDelegatee | 0x9f3e8756Cf5B5E875Efe8f4F9D152Bb34F752BB6 |
 | Token0 | 0x8464135c8F25Da09e49BC8782676a84730C318bC |
 | Token1 | 0x71C95911E9a5D330f4D621842EC243EE1343292e |
+
+A downloadable video walkthrough is available as `Project-walkthrough.mp4"
