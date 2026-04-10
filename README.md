@@ -99,6 +99,7 @@ Nonce ordering: `botNonce` for front-run, `botNonce + 1` for back-run.
 2. Profitability check simplified — no quoter simulation
 3. Single hardcoded victim address
 4. No WebSocket subscription (uses polling instead)
+5. Trigger script is manual — in production would monitor real mempool automatically
 
 ## Contract Addresses (Anvil local, chain 31337)
 
